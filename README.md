@@ -11,7 +11,6 @@ TalkChat is a real-time chat application built with the MERN (MongoDB, Express, 
   - [Client Setup](#client-setup)
 - [Usage](#usage)
 - [Features](#features)
-- [Acknowledgements](#acknowledgements)
 
 ## Demo
 
@@ -92,8 +91,5 @@ To use the chat application, register an account, log in, and start chatting wit
 - Avatar customization
 - Logout functionality
 
-## Acknowledgements
-
-- Thanks to  [![Kishan Sheth](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/channel/@KishanSheth21)for making this project possible.
-- 
+##Happy Coding 🚀
 
