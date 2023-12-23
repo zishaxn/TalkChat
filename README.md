@@ -1,4 +1,3 @@
-```markdown
 # TalkChat - Chat Application
 
 TalkChat is a real-time chat application built with the MERN (MongoDB, Express, React, Node.js) stack.
