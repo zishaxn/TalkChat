@@ -75,13 +75,7 @@ Both should be installed, and make sure MongoDB is running.
    REACT_APP_HOST=<your_server_url>
    ```
 
-4. Update `APIRoutes.js` in the `src/utils` directory:
-
-   ```javascript
-   export const host = process.env.REACT_APP_HOST;
-   ```
-
-5. Start the React app:
+4. Start the React app:
 
    ```shell
    npm start
@@ -100,4 +94,6 @@ To use the chat application, register an account, log in, and start chatting wit
 
 ## Acknowledgements
 
-- Thanks to  [Kishan Sheth]([#https://socket.io/](https://www.youtube.com/@KishanSheth21)https://www.youtube.com/@KishanSheth21) for making this project possible.
+- Thanks to  [![Kishan Sheth](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/channel/@KishanSheth21)for making this project possible.
+- 
+
