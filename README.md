@@ -1,54 +1,99 @@
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
+# TalkChat - Chat Application
 
+TalkChat is a real-time chat application built with the MERN (MongoDB, Express, React, Node.js) stack.
 
 ![login page](./images/snappy_login.png)
 
 ![home page](./images/snappy.png)
 
-## Installation Guide
+## Table of Contents
+
+- [Demo](#demo)
+- [Installation](#installation)
+  - [Requirements](#requirements)
+  - [Server Setup](#server-setup)
+  - [Client Setup](#client-setup)
+- [Usage](#usage)
+- [Features](#features)
+
+## Demo
+
+Watch the demo video [here](./path/to/demo.mp4).
+
+## Installation
 
 ### Requirements
-- [Nodejs](https://nodejs.org/en/download)
-- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
 
-Both should be installed and make sure mongodb is running.
+Make sure you have the following prerequisites installed:
 
-```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
-```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
+- [Node.js](https://nodejs.org/en/download)
+- [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)
 
-Now install the dependencies
-```shell
-cd server
-yarn
-cd ..
-cd public
-yarn
-```
-We are almost done, Now just start the development server.
+Both should be installed, and make sure MongoDB is running.
 
-For Frontend.
-```shell
-cd public
-yarn start
-```
-For Backend.
+### Server Setup
 
-Open another terminal in folder, Also make sure mongodb is running in background.
-```shell
-cd server
-yarn start
-```
+1. Navigate to the `server` directory:
 
-Done! Now open localhost:3000 in your browser.
+   ```shell
+   cd server
+   ```
+
+2. Install dependencies:
+
+   ```shell
+   npm install
+   ```
+
+3. Create a `.env` file and add the required configurations:
+
+   ```env
+   MONGO_URL=<your_mongo_db_url>
+   PORT=<your_server_port>
+   ```
+
+4. Start the server:
+
+   ```shell
+   npm start
+   ```
+
+### Client Setup
+
+1. Navigate to the `client` directory:
+
+   ```shell
+   cd client
+   ```
+
+2. Install dependencies:
+
+   ```shell
+   npm install
+   ```
+
+3. Create a `.env` file and add the required configurations:
+
+   ```env
+   REACT_APP_HOST=<your_server_url>
+   ```
+
+4. Start the React app:
+
+   ```shell
+   npm start
+   ```
+
+## Usage
+
+To use the chat application, register an account, log in, and start chatting with other users.
+
+## Features
+
+- Real-time messaging
+- User registration and authentication
+- Avatar customization
+- Logout functionality
+
+### Happy Coding 🚀
+
