@@ -2,6 +2,10 @@
 
 TalkChat is a real-time chat application built with the MERN (MongoDB, Express, React, Node.js) stack.
 
+![login page](./images/snappy_login.png)
+
+![home page](./images/snappy.png)
+
 ## Table of Contents
 
 - [Demo](#demo)
