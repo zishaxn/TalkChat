@@ -91,5 +91,5 @@ To use the chat application, register an account, log in, and start chatting wit
 - Avatar customization
 - Logout functionality
 
-##Happy Coding 🚀
+### Happy Coding 🚀
 
