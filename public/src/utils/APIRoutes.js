@@ -1,8 +1,16 @@
 export const host = "http://localhost:5000";
+console.log('something');
 export const loginRoute = `${host}/api/auth/login`;
+console.log("something 1");
 export const registerRoute = `${host}/api/auth/register`;
+console.log("something 2");
 export const logoutRoute = `${host}/api/auth/logout`;
+console.log("something 3");
 export const allUsersRoute = `${host}/api/auth/allusers`;
+console.log("something 4");
 export const sendMessageRoute = `${host}/api/messages/addmsg`;
+console.log("something 5");
 export const recieveMessageRoute = `${host}/api/messages/getmsg`;
+console.log("something 6");
 export const setAvatarRoute = `${host}/api/auth/setavatar`;
+console.log("something 7");
