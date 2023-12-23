@@ -25,7 +25,7 @@ export default function Contacts({ contacts, changeChat }) {
         <Container>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h3>snappy</h3>
+            <h3>TalkChat</h3>
           </div>
           <div className="contacts">
             {contacts.map((contact, index) => {
@@ -70,17 +70,18 @@ const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background-color: #080420;
+  background-color: #e2e2e2;
   .brand {
     display: flex;
     align-items: center;
     gap: 1rem;
     justify-content: center;
+    color: black;
     img {
       height: 2rem;
     }
     h3 {
-      color: white;
+      color: black;
       text-transform: uppercase;
     }
   }
@@ -99,11 +100,11 @@ const Container = styled.div`
       }
     }
     .contact {
-      background-color: #ffffff34;
+      background-color: black;
       min-height: 5rem;
       cursor: pointer;
-      width: 90%;
-      border-radius: 0.2rem;
+      width: 95%;
+      border-radius: 20px;
       padding: 0.4rem;
       display: flex;
       gap: 1rem;
@@ -111,12 +112,13 @@ const Container = styled.div`
       transition: 0.5s ease-in-out;
       .avatar {
         img {
-          height: 3rem;
+          height: 4rem;
         }
       }
       .username {
         h3 {
           color: white;
+          font-size:1.5rem;
         }
       }
     }
@@ -126,20 +128,22 @@ const Container = styled.div`
   }
 
   .current-user {
-    background-color: #0d0d30;
+    background-color: #d0d0e0;
     display: flex;
     justify-content: center;
     align-items: center;
+
     gap: 2rem;
     .avatar {
       img {
+        margin-top: 15px;
         height: 4rem;
         max-inline-size: 100%;
       }
     }
     .username {
       h2 {
-        color: white;
+        color: black;
       }
     }
     @media screen and (min-width: 720px) and (max-width: 1080px) {

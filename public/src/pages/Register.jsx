@@ -90,7 +90,7 @@ export default function Register() {
         <form action="" onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h1>snappy</h1>
+            <h1>TalkChat</h1>
           </div>
           <input
             type="text"
@@ -167,7 +167,7 @@ const FormContainer = styled.div`
     width: 100%;
     font-size: 1rem;
     &:focus {
-      border: 0.1rem solid #997af0;
+      border: 0.1rem solid #8963f1;
       outline: none;
     }
   }
