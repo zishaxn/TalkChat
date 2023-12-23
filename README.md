@@ -101,4 +101,4 @@ To use the chat application, register an account, log in, and start chatting wit
 
 ## Acknowledgements
 
-- Thanks to  [Kishan Sheth]([https://socket.io/](https://www.youtube.com/@KishanSheth21)https://www.youtube.com/@KishanSheth21) for making this project possible.
+- Thanks to  [Kishan Sheth]([#https://socket.io/](https://www.youtube.com/@KishanSheth21)https://www.youtube.com/@KishanSheth21) for making this project possible.
