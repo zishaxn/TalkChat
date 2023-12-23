@@ -1,3 +1,4 @@
+```markdown
 # TalkChat - Chat Application
 
 TalkChat is a real-time chat application built with the MERN (MongoDB, Express, React, Node.js) stack.
@@ -101,4 +102,3 @@ To use the chat application, register an account, log in, and start chatting wit
 ## Acknowledgements
 
 - Thanks to  [Kishan Sheth]([https://socket.io/](https://www.youtube.com/@KishanSheth21)https://www.youtube.com/@KishanSheth21) for making this project possible.
-```
