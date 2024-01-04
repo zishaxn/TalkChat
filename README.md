@@ -22,7 +22,7 @@ TalkChat is a real-time chat application built with the MERN (MongoDB, Express, 
 
 ## Demo
 
-Watch the demo video [here](https://clipchamp.com/watch/QfcwD8CsWD9).
+Watch the demo video [here](https://clipchamp.com/watch/u3qABE9nDLc).
 
 ## Installation
 
