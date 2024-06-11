@@ -29,6 +29,10 @@ app.use("/api/messages", messageRoutes);
 const server = app.listen(process.env.PORT, () =>
   console.log(`Server started on ${process.env.PORT}`)
 );
+
+/*
+Initializes a Socket.IO server (io) and attaches it to the existing HTTP server (server) created by Express.
+Configures CORS to allow connections from http://localhost:3000 with credentials. */
 const io = socket(server, {
   cors: {
     origin: "http://localhost:3000",
