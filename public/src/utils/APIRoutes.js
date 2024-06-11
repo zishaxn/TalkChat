@@ -1,4 +1,4 @@
-export const host = "http://localhost:5000";
+export const host = "https://talkchat-3ue4.onrender.com";
 console.log('something');
 export const loginRoute = `${host}/api/auth/login`;
 console.log("something 1");
